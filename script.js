@@ -68,7 +68,7 @@ const winSound = new Audio("win.wav");
 // Share on WhatsApp
 function shareOnWhatsApp() {
   const message = encodeURIComponent(
-    "Check out this amazing spinning game and win exciting prizes! [Your Game Link]"
+    "Check out this amazing spinning game and win exciting prizes! [https://hansoswald.github.io/spin-and-win/]"
   );
   const url = `https://api.whatsapp.com/send?text=${message}`;
   window.open(url, '_blank');
